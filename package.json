@@ -1,0 +1,22 @@
+{
+  "name": "kotd-rp-bot",
+  "version": "1.0.0",
+  "description": "Tracks weekly RP for KOTD",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/nathanrobinson/kotd-rp-bot.git",
+  "author": "nathanrobinson <nathanrobinson@yahoo.com>",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "yarn ts-node --experimental-specifier-resolution=node src/bot.ts"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.4.2",
+    "discord.js": "^14.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
